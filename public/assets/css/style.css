@@ -1,0 +1,73 @@
+body {
+    width: 99%;
+    height: 900px;
+    background: linear-gradient(#ffffff, #FFFBF6), fixed
+}
+
+p {
+  color: #6b394a;
+}
+
+#burgerimage {
+    width: 33.333%;
+}
+
+#top-bar {
+    margin-top: 28px;
+}
+
+.spacing-reset {
+    padding: 3px;
+    margin: 3px;
+    border: 0;
+}
+
+.list-reset {
+    padding: 3px;
+    margin: 3px;
+    list-style-type: none;
+    border: 0;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 990px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 990px;
+    }
+}
+
+.enter_section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#enter_text {
+    width: 300px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+}
+
+.task {
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.button-size {
+    padding-bottom: 20px;
+}
+
+#text-enter-button {
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
